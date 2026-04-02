@@ -2,11 +2,11 @@ import React from 'react';
 
 export default function App() {
   const data = {
-    nama: "Mohammed Almeerzia Ilfasya",
+    nama: "Elfandy Mahardika",
     kelas: "T2F",
     prodi: "Teknologi Informasi (D3)",
-    domisili: "Jl. Mertojoyo Selatan Blok A. No. 9A, Merjosari, Malang.",
-    tentangDiri: "Perkenalkan, nama saya Mohammed Almeerzia Ilfasya, mahasiswa program studi Diploma 3 (D3) Teknologi Informasi di Universitas Brawijaya. Saat ini saya berada di kelas T2F dan sedang menempuh pendidikan dengan penuh semangat untuk mendalami dunia teknologi yang terus berkembang pesat. Sebagai calon profesional di bidang teknologi informasi, saya memiliki minat yang besar terhadap pengembangan perangkat lunak, desain antarmuka pengguna (UI/UX), dan inovasi digital yang dapat memberikan solusi nyata bagi masyarakat. Selama masa studi, saya terus mengasah keterampilan teknis maupun soft skills melalui berbagai proyek akademik, salah satunya adalah eksplorasi pemrograman web modern menggunakan ReactJS dan Tailwind CSS. Saya percaya bahwa fondasi yang kuat dalam logika pemrograman serta pemahaman desain yang baik adalah kunci untuk menciptakan aplikasi yang tidak hanya fungsional, tetapi juga nyaman digunakan. Saya selalu terbuka terhadap tantangan baru untuk terus meningkatkan kapasitas diri di dunia teknologi."
+    domisili: "Bogor, Jawa Barat",
+    tentangDiri: "Perkenalkan, nama saya Elfandy Mahardika, mahasiswa program studi Diploma 3 (D3) Teknologi Informasi di Universitas Brawijaya. Saat ini saya berada di kelas T2F dan sedang menempuh pendidikan dengan penuh semangat untuk mendalami dunia teknologi yang terus berkembang pesat. Sebagai calon profesional di bidang teknologi informasi, saya memiliki minat yang besar terhadap pengembangan perangkat lunak, desain antarmuka pengguna (UI/UX), dan inovasi digital yang dapat memberikan solusi nyata bagi masyarakat. Selama masa studi, saya terus mengasah keterampilan teknis maupun soft skills melalui berbagai proyek akademik, salah satunya adalah eksplorasi pemrograman web modern menggunakan ReactJS dan Tailwind CSS. Saya percaya bahwa fondasi yang kuat dalam logika pemrograman serta pemahaman desain yang baik adalah kunci untuk menciptakan aplikasi yang tidak hanya fungsional, tetapi juga nyaman digunakan. Saya selalu terbuka terhadap tantangan baru untuk terus meningkatkan kapasitas diri di dunia teknologi."
   };
 
   return (
@@ -20,7 +20,6 @@ export default function App() {
           {/* Foto Profil */}
           <div className="relative flex flex-col items-center -mt-8 mb-4">
 
-            {/* ✅ FIX: inline style ditambahkan sebagai fallback jika Tailwind tidak ter-compile */}
             <div
               className="h-16 w-16 rounded-full border-2 border-white bg-white shadow-md overflow-hidden"
               style={{
@@ -33,7 +32,7 @@ export default function App() {
               }}
             >
               <img
-                src="/FOTO KTM ALMET UB.jpg"
+                src="/epan.jpg"
                 alt="Profil"
                 className="h-full w-full object-cover object-top"
                 style={{
