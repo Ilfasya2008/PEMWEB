@@ -32,7 +32,7 @@ export default function App() {
               }}
             >
               <img
-                src="/epan.jpg"
+                src="/epan.jpg.jpeg"
                 alt="Profil"
                 className="h-full w-full object-cover object-top"
                 style={{
